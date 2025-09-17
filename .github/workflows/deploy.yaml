@@ -34,7 +34,7 @@ jobs:
       - name: Download binary
         uses: actions/download-artifact@v4
         with:
-          name: fiber-app
+          name:  clarifyAPI
           path: .
 
       - name: Add SSH key
